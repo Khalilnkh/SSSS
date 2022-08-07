@@ -47,6 +47,10 @@ namespace Manage.Controller
                 ConsoleHelper.WriteTextWithColor(ConsoleColor.Red, "There is not any admins");
             }
         }
+        public Admin LogOut()
+        {
+            return Authenticate();
+        }
 
     }
 }
